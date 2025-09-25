@@ -3,8 +3,6 @@
 
 - 📫 How to reach me **anugrahreza240@gmail.com**
 
-- ⚡ Fun fact **hope to be more**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
