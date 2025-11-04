@@ -1,0 +1,74 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ws-paradose;
+    src: url(/assets/Ws\ Paradose\ Demo.ttf);
+}
+
+main {
+    background-color: beige;
+}
+
+/* Style navbar */
+.navbar {
+    font-family: 'ws-paradose';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8C1007;
+    padding: 10px 20px;
+}
+
+/* Logo dengan subbrand di bawah */
+.navbar .logo {
+    text-align: start;
+}
+
+.navbar .logo a {
+    font-family: 'ws-paradose';
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: block; /* Mengubah link menjadi block agar bisa dipisah */
+}
+
+.navbar .subbrand {
+    display: block; /* Menjadikan subbrand sebagai block element */
+    color: #f39c12;
+    font-size: 1px;
+    font-style: italic;
+    margin-top: px; /* Memberikan jarak antara logo dan subbrand */
+}
+
+.sub2{
+    color: white;
+}
+
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+    margin: 10px;
+}
+
+.nav-links a:hover {
+    color: #FFF0C4;
+}
